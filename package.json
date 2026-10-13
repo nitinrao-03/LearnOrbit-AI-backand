@@ -1,16 +1,12 @@
 {
-  "name": "learnorbit-ai-backend",
+  "name": "learn-orbit-ai",
   "version": "1.0.0",
-  "description": "Backend server for LearnOrbit AI — safely calls Gemini API without exposing the key.",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
+  "private": true,
+  "description": "Learn Orbit AI backend dependencies",
   "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5"
+    "@mlc-ai/web-llm": "^0.2.84"
+  }
+ "scripts": {
+  "start": "node server.js"
   }
 }
